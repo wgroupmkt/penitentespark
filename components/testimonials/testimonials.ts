@@ -1,0 +1,26 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: "María González",
+    location: "Mendoza",
+    rating: 5,
+    text: "Una experiencia increíble. El paseo en telesilla y la vista son espectaculares.",
+    avatar: "/images/testimonials/avatar1.jpg",
+  },
+  {
+    id: 2,
+    name: "Juan Pérez",
+    location: "Buenos Aires",
+    rating: 5,
+    text: "Muy recomendable para ir en familia. Todo muy bien organizado.",
+    avatar: "/images/testimonials/avatar2.jpg",
+  },
+  {
+    id: 3,
+    name: "Sofía López",
+    location: "Córdoba",
+    rating: 5,
+    text: "El restaurante y las actividades hicieron que el día fuera inolvidable.",
+    avatar: "/images/testimonials/avatar3.jpg",
+  },
+];
