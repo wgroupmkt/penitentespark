@@ -1,17 +1,17 @@
 export const gallery = [
   {
     id: 1,
-    image: "/gallery/penitentes-1.jpg",
+    image: "/paisaje.jpg",
     title: "Paisajes de Penitentes",
   },
   {
     id: 2,
-    image: "/gallery/penitentes-2.jpg",
+    image: "/aventura.jpeg",
     title: "Aventura en la montaña",
   },
   {
     id: 3,
-    image: "/gallery/penitentes-3.jpg",
+    image: "/experiencia.jpg",
     title: "Experiencias únicas",
   },
 ];
