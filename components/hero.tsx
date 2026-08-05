@@ -31,10 +31,10 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-950/90 via-blue-900/70 to-blue-900/30" />
       </div>
 
-      <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center justify-between px-6">
+      <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center justify-between px-6 pb-12">
 
         {/* Texto */}
-        <div className="max-w-2xl">
+        <div className="max-w-xl">
 
           <span className="rounded-full bg-orange-500 px-4 py-2 text-sm font-semibold uppercase tracking-widest text-white">
             Mendoza • Argentina
@@ -51,7 +51,7 @@ export default function Hero() {
             familia, gastronomía y vistas únicas de la Cordillera de los Andes.
           </p>
         
-        <div className="mt-10 flex w-full gap-3">
+        <div className="mt-10 flex w-full gap-3 pb-30">
          
           <Link
            
