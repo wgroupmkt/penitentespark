@@ -36,17 +36,17 @@ export default function Hero() {
         {/* Texto */}
         <div className="max-w-xl">
 
-          <span className="rounded-full bg-orange-500 px-4 py-2 text-sm font-semibold uppercase tracking-widest text-white">
+          <span className="rounded-full bg-orange-500 px-14 py-2 text-sm font-semibold uppercase tracking-widest text-white">
             Mendoza • Argentina
           </span>
 
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold uppercase leading-none p-12 text-white">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold uppercase leading-none text-white">
             Penitentes
             <br />
             Park
           </h1>
 
-          <p className="mt-6 max-w-xl text-xl leading-relaxed text-blue-100">
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-blue-100">
             Viví la montaña durante todo el año con actividades para toda la
             familia, gastronomía y vistas únicas de la Cordillera de los Andes.
           </p>
