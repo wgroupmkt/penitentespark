@@ -50,24 +50,22 @@ export default function Hero() {
             Viví la montaña durante todo el año con actividades para toda la
             familia, gastronomía y vistas únicas de la Cordillera de los Andes.
           </p>
+        
+        <div className="mt-10 flex gap-3">
+          <Link
+            href="/pases"
+            className="flex-1 rounded-xl bg-orange-500 px-4 py-4 text-center font-bold text-white transition hover:bg-orange-600"
+          >
+            Comprar Pase
+          </Link>
 
-          <div className="mt-10 flex flex-wrap gap-5">
-
-            <Link
-              href="/pases"
-              className="rounded-xl bg-orange-500 px-8 py-4 font-bold text-white transition hover:bg-orange-600"
-            >
-              Comprar Pase
-            </Link>
-
-            <Link
-              href="/actividades"
-              className="rounded-xl border border-white px-8 py-4 font-bold text-white transition hover:bg-white hover:text-blue-900"
-            >
-              Ver Actividades
-            </Link>
-
-          </div>
+          <Link
+            href="/actividades"
+            className="flex-1 rounded-xl border border-white px-4 py-4 text-center font-bold text-white transition hover:bg-white hover:text-blue-900"
+          >
+            Ver Actividades
+          </Link>
+        </div>
 
         </div>
 
