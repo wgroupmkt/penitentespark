@@ -40,7 +40,7 @@ export default function Hero() {
             Mendoza • Argentina
           </span>
 
-          <h1 className="mt-8 text-6xl font-black uppercase leading-none text-white lg:text-8xl">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold uppercase leading-none p-12 text-white">
             Penitentes
             <br />
             Park
@@ -51,20 +51,33 @@ export default function Hero() {
             familia, gastronomía y vistas únicas de la Cordillera de los Andes.
           </p>
         
-        <div className="mt-10 flex gap-3">
+        <div className="mt-10 flex w-full gap-3">
+         
           <Link
-            href="/pases"
-            className="flex-1 rounded-xl bg-orange-500 px-4 py-4 text-center font-bold text-white transition hover:bg-orange-600"
+           
+           href="/pases"
+          
+            className="flex-1 rounded-xl bg-orange-500 py-4 text-center text-sm md:text-base font-bold text-white transition hover:bg-orange-600"
+          
           >
+           
             Comprar Pase
+         
           </Link>
 
+          
           <Link
-            href="/actividades"
-            className="flex-1 rounded-xl border border-white px-4 py-4 text-center font-bold text-white transition hover:bg-white hover:text-blue-900"
+           
+           href="/actividades"
+           
+            className="flex-1 rounded-xl border border-white py-4 text-center text-sm md:text-base font-bold text-white transition hover:bg-white hover:text-blue-900"
+          
           >
+           
             Ver Actividades
+          
           </Link>
+        
         </div>
 
         </div>
